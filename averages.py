@@ -1,0 +1,5 @@
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+print("The airithmetic mean is:", (a + b) / 2)
+print("The geometric mean is:", (a + b)**0.5)
+print("The root-mean-square is:", ((a**2 + b**2) / 2)**0.5)

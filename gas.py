@@ -1,0 +1,5 @@
+gas_gal = int(input("Enter a number of gallons of gasoline: "))
+print("You entered:", gas_gal, "gallons")
+print("It is equivalent to", gas_gal*3.7854, "liters")
+print("It takes", gas_gal/19.5, "barrels of oil to produce this amount of gas")
+print("And it costs", gas_gal*3.65, "USD")
